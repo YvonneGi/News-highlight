@@ -25,7 +25,6 @@ def search(new_name):
 @app.route('/new/<id>')
 def new_review(id):
   news= get_news(id)
-  news= get_news(id)
   return render_template('news.html',title = title, news=news)
 
   
