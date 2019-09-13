@@ -1,1 +1,19 @@
->
+<div class="container" style="background-color:gray">
+   <!-- Content block -->
+   {% extends 'base.html'%}
+   {% import 'macros.html' as macro%}
+    <!-- Styles block -->
+       {% block styles%}
+       {{ super() }}
+       <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+   {% endblock %} 
+   <!-- Content block -->
+   {% block content %}
+
+   <h3 style="color: rgba(158, 114, 3, 0.815); text-align: center"> General News</h3>
+   <hr>
+    <ul>
+        {{ macro.displayNewsList(popular)}}
+    </ul>
+</div>
+{% endblock%}

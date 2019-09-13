@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            {% extends 'bootstrap/base.html'%}
+        <meta charset="utf-8">
+        {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> Welcome to News Review website </title>
+        {% endif %}
+    </head>
+    <body>
+        <!-- Content block -->
+        {% block navbar %}
+        {% include 'navbar.html' %}
+        {% endblock %}
+        {% block content %}
+
+        {% endblock%}
+    </body>
+</html>
