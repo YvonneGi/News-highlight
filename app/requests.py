@@ -1,9 +1,9 @@
 import urllib.request,json
-from .Models import News
+from .Models import news
 from app import app
 from app.Models.source import source
 
-News=News.News
+News=news.News
 # source = news.source
 
 api_key = app.config['NEWS_API_KEY']
