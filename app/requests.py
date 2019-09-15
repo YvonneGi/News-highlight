@@ -40,7 +40,8 @@ def process_results(news_list):
     Returns :
         new_results: A list of news objects
     '''
-    news_results= []
+       news_results= []
+
     for news_item in news_list:
                    
         id = news_item.get('id')   
