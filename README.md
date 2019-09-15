@@ -3,7 +3,7 @@
 The News Highlight App allows a user to view news highlights from various sources and articles
 
 **Author:Yvonne Ugirimpuhwe**
-***Due on Friday 13th Semptember,2019***
++ ***Due on Friday 13th Semptember,2019***
 
 
 ## Description
